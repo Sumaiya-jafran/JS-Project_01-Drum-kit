@@ -1,0 +1,43 @@
+.keys{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url('assets/images/maha1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.key{
+    width:60px;
+    height: 60px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+    transition: all .09s ;
+    text-align: center;
+    /* line-height: 50px; */
+    color:rgb(255, 254, 254);
+    background: #00000062;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.sound{
+    font-size: 12px;
+    color:bisque;
+}
+.playing{
+    border-color: rgb(239, 223, 47);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(239, 223, 47);
+    /* background-color: aquamarine; */
+}
